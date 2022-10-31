@@ -26,8 +26,12 @@
 <body>
     
     <div class="container">
-        <h1>Hello Bollar!</h1>
+        <h1>Hello <span>Bollar</span>!</h1>
     </div>
 
+    <script>
+        name = prompt("What is your name?")
+        document.querySelector("span").innerHTML = name
+    </script>
 </body>
 </html>
